@@ -1,0 +1,1873 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Salary\n"
+"POT-Creation-Date: 2025-12-22 14:52+0330\n"
+"PO-Revision-Date: 2025-12-22 14:53+0330\n"
+"Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/Retargeting/Controller.php:81
+msgid "Visitor not recognized."
+msgstr ""
+
+#: src/Pmpr/Module/Retargeting/Controller.php:113
+msgid "Type is not valid"
+msgstr "نوع معتبر نیست"
+
+#: src/Pmpr/Module/Retargeting/Controller.php:136
+msgid "Product not found"
+msgstr "محصول یافت نشد"
+
+#: src/Pmpr/Module/Retargeting/Model/Common.php:22
+msgid "Visitor"
+msgstr ""
+
+#: src/Pmpr/Module/Retargeting/Model/Interest.php:16
+msgid "Interests"
+msgstr "علایق"
+
+#: src/Pmpr/Module/Retargeting/Model/Interest.php:17
+msgid "Interest"
+msgstr "علاقه"
+
+#: src/Pmpr/Module/Retargeting/Model/Interest.php:28
+msgid "Product"
+msgstr "محصول"
+
+#: src/Pmpr/Module/Retargeting/Model/Interest.php:32
+msgid "Score"
+msgstr ""
+
+#: src/Pmpr/Module/Retargeting/Model/PageEvent.php:15
+msgid "Page Events"
+msgstr "رویدادهای صفحه"
+
+#: src/Pmpr/Module/Retargeting/Model/PageEvent.php:16
+msgid "Page Event"
+msgstr ""
+
+#: src/Pmpr/Module/Retargeting/Retargeting.php:21
+msgid "Retargeting"
+msgstr "هدف‌گیری کاربران"
+
+#: src/Pmpr/Module/Retargeting/Retargeting.php:105
+msgid "Recently Viewed"
+msgstr "آخرین بازدید‌های شما"
+
+#: src/Pmpr/Module/Retargeting/Retargeting.php:118
+msgid "Most Interested"
+msgstr "علاقه‌مندترین‌ها"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:40
+msgid "Retargeting Setting"
+msgstr "تنظیمات هدف‌گیری کاربران"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:41
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:55
+#: src/Pmpr/Module/Retargeting/Setting.php:58
+#, php-format
+msgid "View %s Page"
+msgstr "مشاهده صفحه %s"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:65
+msgid "Interest Score"
+msgstr "امتیاز علاقه‌مندی"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:66
+msgid "User Interest to Product"
+msgstr "علاقه‌مندی کاربر به محصول"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:69
+msgid "Events Weight"
+msgstr "وزن رخداد‌ها"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:71
+msgid ""
+"The sum of the numbers entered in these fields must equal 100. If you want a "
+"parameter to have no effect on scoring, set its value to zero."
+msgstr ""
+"مجموع اعداد وارد شده در این فیلد‌ها باید ۱۰۰ شود، اگر می‌خواهید پارامتری تاثیری "
+"در امتیازدهی نداشته باشد، مقدار آن را صفر قرار دهید."
+
+#: src/Pmpr/Module/Retargeting/Setting.php:74
+#: src/Pmpr/Module/Retargeting/Setting.php:108
+msgid "View Product Page"
+msgstr "مشاهده صفحه محصول"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:78
+#: src/Pmpr/Module/Retargeting/Setting.php:112
+msgid "Click on Product Link"
+msgstr "کلیک رو لینک محصول"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:82
+#: src/Pmpr/Module/Retargeting/Setting.php:116
+msgid "Scroll on Product Page"
+msgstr "اسکرول در صفحه مصحول"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:86
+#: src/Pmpr/Module/Retargeting/Setting.php:120
+#, fuzzy
+#| msgid "Scroll on Product Page"
+msgid "Scroll Activity on Product Page"
+msgstr "اسکرول در صفحه مصحول"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:90
+#: src/Pmpr/Module/Retargeting/Setting.php:124
+msgid "Dwell Time"
+msgstr ""
+
+#: src/Pmpr/Module/Retargeting/Setting.php:94
+#: src/Pmpr/Module/Retargeting/Setting.php:128
+msgid "Interact with Product Page"
+msgstr "تعامل با صفحه محصول"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:98
+#: src/Pmpr/Module/Retargeting/Setting.php:132
+msgid "Add to Cart"
+msgstr "افزودن به سبد خرید"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:104
+msgid "Events Maximum"
+msgstr ""
+
+#: src/Pmpr/Module/Retargeting/Setting.php:139
+msgid "Thresholds"
+msgstr "آستانه‌ها"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:143
+msgid "Interest Threshold"
+msgstr "آستانه علاقه‌مندی"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:148
+msgid "Sync Threshold"
+msgstr "آستانه همگام‌سازی"
+
+#: src/Pmpr/Module/Retargeting/Setting.php:149
+msgid "It will only be sent to the server if it exceeds this value."
+msgstr "فقط زمانی داده‌ها به سرور ارسال می‌شوند که از این مقدار بیشتر شوند."
+
+#~ msgid "Time Spent on Product Page"
+#~ msgstr "زمان حضور در صفحه محصول"
+
+#~ msgid "Track Behavior"
+#~ msgstr "ردیابی رفتار"
+
+#~ msgid "Track Visitor Behavior"
+#~ msgstr "ردیابی رفتار کاربران"
+
+#~ msgid "User Behavior"
+#~ msgstr "رفتار کاربر"
+
+#~ msgid "Track Page Views"
+#~ msgstr "ردیابی بازدید صفحات"
+
+#~ msgid "The number and path of pages viewed by the user are recorded."
+#~ msgstr "تعداد و مسیر صفحات مشاهده‌شده توسط کاربر ذخیره می‌شود."
+
+#~ msgid "Track Clinks"
+#~ msgstr "ردیابی کلیک‌ها"
+
+#~ msgid "Clicks on links, buttons, and interactive elements are tracked."
+#~ msgstr "کلیک‌های روی لینک‌ها، دکمه‌ها و عناصر قابل تعامل ردیابی می‌شود."
+
+#~ msgid "Track Scroll"
+#~ msgstr "ردیابی اسکرول"
+
+#~ msgid "It tracks how much of the page the user has scrolled."
+#~ msgstr "بررسی می‌کند کاربر چقدر از صفحه را اسکرول کرده است."
+
+#~ msgid "It measures how long the user stays on each page."
+#~ msgstr "زمان ماندگاری کاربر در هر صفحه را اندازه‌گیری می‌کند."
+
+#, fuzzy
+#~| msgid ""
+#~| "It records the user’s interactions with specific products or items (e.g., "
+#~| "viewing product details)."
+#~ msgid ""
+#~ "It records the user’s interactions with specific page (e.g., viewing "
+#~ "product details)."
+#~ msgstr ""
+#~ "تعامل کاربر با محصولات یا آیتم‌های خاص (مثلاً دیدن جزئیات محصول) را ذخیره "
+#~ "می‌کند."
+
+#~ msgid "Identifies Returning Users"
+#~ msgstr "شناسایی کاربران بازگشتی"
+
+#~ msgid "It detects whether the user has returned for a second time or more."
+#~ msgstr "تشخیص می‌دهد آیا کاربر برای بار دوم یا بیشتر بازگشته است."
+
+#~ msgid "Data Storage"
+#~ msgstr "ذخیره داده"
+
+#~ msgid "Audience & Scoring"
+#~ msgstr "مخاطبان و امتیازدهی"
+
+#~ msgid "Score to user behavior"
+#~ msgstr "امتیازدهی به رفتار کاربر"
+
+#~ msgid "Behavioral Scoring"
+#~ msgstr "امتیازدهی "
+
+#~ msgid "Specifies how much of the user's interest score decreases each day."
+#~ msgstr "در هر روز چه مقدار از امتیاز علاقه کاربر کم شود."
+
+#~ msgid "Minimum Interest Score"
+#~ msgstr "حداقل امتیاز علاقه‌مندی"
+
+#~ msgid ""
+#~ "If the user's score is above this threshold, they are considered "
+#~ "interested."
+#~ msgstr "اگر امتیاز کاربر از این حد بالاتر باشد، علاقه‌مند در نظر گرفته می‌شود."
+
+#~ msgid "Score Weights"
+#~ msgstr "وزن‌های امتیازدهی"
+
+#~ msgid "Page View Weight"
+#~ msgstr "وزن مشاهده صفحه"
+
+#~ msgid "Click Weight"
+#~ msgstr "وزن کلیک"
+
+#~ msgid "Scroll Weight"
+#~ msgstr "وزن اسکرول"
+
+#~ msgid "Page Interact Weight"
+#~ msgstr "وزن تعامل با صفحه"
+
+#~ msgid "Add to Cart Weight"
+#~ msgstr "وزن ا"
+
+#, fuzzy
+#~| msgid "Waiting"
+#~ msgid "Rating"
+#~ msgstr "در انتظار بررسی"
+
+#~ msgid "Can not find request"
+#~ msgstr "درخواست پیدا نشد"
+
+#~ msgid "Description is required for rejected status"
+#~ msgstr "مقدار شرح برای وضعیت رد شده ضروری است"
+
+#~ msgid "Status is required"
+#~ msgstr "مقدار وضعیت ضروری است"
+
+#, php-format
+#~ msgid "Request status successfully changed to %s"
+#~ msgstr "وضعیت درخواست با موفقیت به %s تغییر کرد"
+
+#~ msgid "Can not handle your request, please contact development team."
+#~ msgstr "قادر به پردازش درخواست شما نیستیم، لطفا با تیم توسعه تماس بگیرید."
+
+#~ msgid "ID is required"
+#~ msgstr "شناسه یک پارامتر ضروری است"
+
+#~ msgid "Agreement"
+#~ msgstr "الگوی درآمدی"
+
+#~ msgid "Agreements"
+#~ msgstr "الگو‌های درآمدی"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "Has an Internship"
+#~ msgstr "دارای دوره کارآموزی"
+
+#~ msgid "Open"
+#~ msgstr "باز"
+
+#~ msgid "Closed"
+#~ msgstr "بسته"
+
+#~ msgid "Private"
+#~ msgstr "خصوصی"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid "Viewing Roles"
+#~ msgstr "نقش‌های مشاهده کننده"
+
+#~ msgid "Viewing Users"
+#~ msgstr "کاربران مشاهده کننده"
+
+#~ msgid "Assigned Role"
+#~ msgstr "نقش اختصاص داده شده"
+
+#~ msgid "User(Request) Selector Callback"
+#~ msgstr "رویه انتخابگر کاربر(درخواست)"
+
+#~ msgid "Product Selector Method"
+#~ msgstr "روش انتخاب محصول"
+
+#~ msgid "By Callback"
+#~ msgstr "توسط رویه"
+
+#~ msgid "Direct"
+#~ msgstr "مستقیم"
+
+#~ msgid "Product Selector Callback"
+#~ msgstr "رویه انتخابگر محصول"
+
+#~ msgid "Product Categories"
+#~ msgstr "دسته‌های محصول"
+
+#~ msgid "Agreement Method"
+#~ msgstr "شیوه درآمد"
+
+#~ msgid "Constant Rate"
+#~ msgstr "نرخ ثابت"
+
+#~ msgid "Variable Rate"
+#~ msgstr "نرخ متغییر (درصدی)"
+
+#~ msgid "Agreement Method Value"
+#~ msgstr "مقدار درآمد"
+
+#~ msgid "Order Threshold Type"
+#~ msgstr "نوع آستانه‌گذاری سفارش‌ها"
+
+#~ msgid "Numerical"
+#~ msgstr "عددی"
+
+#~ msgid "Monetary"
+#~ msgstr "پولی"
+
+#~ msgid "Consider Before Minimum Threshold"
+#~ msgstr "حساب کردن کف آستانه"
+
+#~ msgid "Maximum Order Threshold"
+#~ msgstr "سقف آستانه"
+
+#~ msgid "Minimum Order Threshold"
+#~ msgstr "کف آستانه"
+
+#~ msgid "Manual"
+#~ msgstr "دستی"
+
+#~ msgid "Automatic"
+#~ msgstr "خودکار"
+
+#~ msgid "Withdraw Method"
+#~ msgstr "طریقه برداشت"
+
+#~ msgid "Withdraw Period"
+#~ msgstr "بازه زمانی تسویه"
+
+#~ msgid "Per Week"
+#~ msgstr "هفتگی"
+
+#~ msgid "Per Month"
+#~ msgstr "ماهیانه"
+
+#~ msgid "Each Three Month"
+#~ msgstr "هر سه ماه"
+
+#~ msgid "Each Six Month"
+#~ msgstr "هر شش ماه"
+
+#~ msgid "Per Year"
+#~ msgstr "سالیانه"
+
+#~ msgid "Request Method"
+#~ msgstr "روش درخواست"
+
+#~ msgid "Free"
+#~ msgstr "رایگان"
+
+#~ msgid "Costly"
+#~ msgstr "با هزینه"
+
+#~ msgid "Description"
+#~ msgstr "شرح"
+
+#~ msgid "Terms"
+#~ msgstr "قوانین و مقررات"
+
+#~ msgid "Implied Agreement"
+#~ msgstr "الگوی درآمدی ضمنی"
+
+#~ msgid "Requests"
+#~ msgstr "درخواست‌ها"
+
+#~ msgid "Created At"
+#~ msgstr "تاریخ ایجاد"
+
+#~ msgid "Updated At"
+#~ msgstr "تاریخ به روزرسانی"
+
+#~ msgid ""
+#~ "An agreement that will be automatically created and accepted for the user "
+#~ "after the current agreement is accepted."
+#~ msgstr ""
+#~ "الگوی درآمدی که پس از پذیرفته شدن الگوی جاری، به طور خودکار برای کاربر "
+#~ "ایجاد و پذیرفته خواهد شد."
+
+#~ msgid "Category"
+#~ msgstr "دسته"
+
+#, php-format
+#~ msgid "Include %s"
+#~ msgstr "شامل %s"
+
+#~ msgid "&nbsp;and&nbsp;"
+#~ msgstr "&nbsp;و&nbsp;"
+
+#, php-format
+#~ msgid "%s Number"
+#~ msgstr "%s عدد"
+
+#~ msgid "Bank Account"
+#~ msgstr "حساب‌ بانکی"
+
+#~ msgid "Bank Accounts"
+#~ msgstr "حساب‌های بانکی"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#~ msgid "IBAN"
+#~ msgstr "شناسه شبا"
+
+#~ msgid "Debit Card"
+#~ msgstr "کارت بانکی"
+
+#~ msgid "Owner Name"
+#~ msgstr "نام صاحب حساب"
+
+#~ msgid "User"
+#~ msgstr "کاربر"
+
+#~ msgid "Editable"
+#~ msgstr "قابل ویرایش"
+
+#~ msgid "Locked"
+#~ msgstr "قفل شده"
+
+#~ msgid "Value"
+#~ msgstr "مقدار"
+
+#~ msgid "Withdraw"
+#~ msgstr "برداشت"
+
+#, php-format
+#~ msgid "%s can not be empty."
+#~ msgstr "%s نمی تواند خالی باشد."
+
+#, php-format
+#~ msgid "Entered %s is not valid"
+#~ msgstr "%s وارد شده معتبر نیست"
+
+#, php-format
+#~ msgid "You are already add this %s to your bank account list."
+#~ msgstr "شما قبلاً این %s را به لیست حساب بانکی خود اضافه کرده اید."
+
+#~ msgid "Bank Account not found"
+#~ msgstr "حساب بانکی پیدا نشد"
+
+#, php-format
+#~ msgid "It's not a valid %s"
+#~ msgstr "این یک %s معتبر نیست"
+
+#, php-format
+#~ msgid "Please select a %s"
+#~ msgstr "لطفا یک %s را انتخاب کنید"
+
+#~ msgid ""
+#~ "Sorry, you can not add new bank info, some previous item is not valid."
+#~ msgstr ""
+#~ "متاسفانه شما قادر به اضافه کردن اطلاعات حساب جدید نیستید، برخی از آیتم‌های "
+#~ "قبلی معتبر نیستند."
+
+#~ msgid "Bank"
+#~ msgstr "بانک"
+
+#~ msgid "Account Information Type"
+#~ msgstr "نوع اطلاعات حساب"
+
+#~ msgid "Owner"
+#~ msgstr "کاربر"
+
+#, php-format
+#~ msgid "Please enter at least %s characters"
+#~ msgstr "لطفا بیش از %s کاراکتر وارد کنید"
+
+#~ msgid ""
+#~ "Your account specifications not supported, please add information based on "
+#~ "supported banks."
+#~ msgstr ""
+#~ "اطلاعات حساب شما پشتیبانی نمی‌شوند، لطفا با توجه به بانک‌های قابل انتخاب "
+#~ "اطلاعات خود را وارد کنید."
+
+#~ msgid "Sorry, this value already exist in previous items."
+#~ msgstr "مقدار مورد نظر در آیتم‌‌های قبلی موجود است."
+
+#~ msgid "Ayandeh Bank"
+#~ msgstr "بانک آینده"
+
+#~ msgid "Eghtesad Novin Bank"
+#~ msgstr "بانک اقتصاد نوین"
+
+#~ msgid "Pasargad Bank"
+#~ msgstr "بانک پاسارگاد"
+
+#~ msgid "Tejarat Bank"
+#~ msgstr "بانک تجارت"
+
+#~ msgid "Tosee Taavon Bank"
+#~ msgstr "بانک توسعه تعاون"
+
+#~ msgid "Tosee Saderat Bank"
+#~ msgstr "بانک توسعه صادرات"
+
+#~ msgid "Parsian Bank"
+#~ msgstr "بانک پارسیان"
+
+#~ msgid "Dey Bank"
+#~ msgstr "بانک دی"
+
+#~ msgid "Refah Bank"
+#~ msgstr "بانک رفاه"
+
+#~ msgid "Saman Bank"
+#~ msgstr "بانک سامان"
+
+#~ msgid "Sepah Bank"
+#~ msgstr "بانک سپه"
+
+#~ msgid "Sarmayeh Bank"
+#~ msgstr "بانک سرمایه"
+
+#~ msgid "Sina Bank"
+#~ msgstr "بانک سینا"
+
+#~ msgid "Shahr Bank"
+#~ msgstr "بانک شهر"
+
+#~ msgid "Saderat Bank"
+#~ msgstr "بانک صادرات"
+
+#~ msgid "Sanat O Madan Bank"
+#~ msgstr "بانک صنعت و معدن"
+
+#~ msgid "Karafarin Bank"
+#~ msgstr "بانک کارآفرین"
+
+#~ msgid "Keshavarzi Bank"
+#~ msgstr "بانک کشاورزی"
+
+#~ msgid "Maskan Bank"
+#~ msgstr "بانک مسکن"
+
+#~ msgid "Mellat Bank"
+#~ msgstr "بانک ملت"
+
+#~ msgid "Melli Bank"
+#~ msgstr "بانک ملی"
+
+#~ msgid "Post Bank"
+#~ msgstr "پست بانک ایران"
+
+#~ msgid "Resalat Bank"
+#~ msgstr "بانک قرض الحسنه رسالت"
+
+#~ msgid "Mehr Iran Bank"
+#~ msgstr "بانک قرض الحسنه مهر ایران"
+
+#~ msgid "Gardeshgari Bank"
+#~ msgstr "بانک گردشگری"
+
+#~ msgid "Iran Zamin Bank"
+#~ msgstr "بانک ایران زمین"
+
+#~ msgid "Middle East Bank"
+#~ msgstr "بانک خاورمیانه"
+
+#, php-format
+#~ msgid "Fee of each transaction is %s"
+#~ msgstr "کارمزد برای هر تراکنش %s"
+
+#~ msgid "Income"
+#~ msgstr "درآمد"
+
+#~ msgid "Incomes"
+#~ msgstr "درآمد‌ها"
+
+#~ msgid "Related Order"
+#~ msgstr "سفارش مرتبط"
+
+#~ msgid "Amount"
+#~ msgstr "مبلغ"
+
+#~ msgid "Unwithdrawn"
+#~ msgstr "برداشت نشده"
+
+#~ msgid "Withdrawn"
+#~ msgstr "برداشت شده"
+
+#~ msgid "None Withdrawnable"
+#~ msgstr "غیر قابل برداشت"
+
+#~ msgid "Withdraw Status"
+#~ msgstr "وضعیت برداشت"
+
+#~ msgid "Request"
+#~ msgstr "درخواست"
+
+#~ msgid "Payment"
+#~ msgstr "پرداخت"
+
+#~ msgid "Payout"
+#~ msgstr "مبلغ پرداختی"
+
+#~ msgid "Success"
+#~ msgstr "موفق"
+
+#~ msgid "Failed"
+#~ msgstr "شکست خورد"
+
+#~ msgid "Creator"
+#~ msgstr "ایجاد کننده"
+
+#~ msgid "Mobile Bank"
+#~ msgstr "موبایل بانک"
+
+#~ msgid "PAYA"
+#~ msgstr "پایا"
+
+#~ msgid "SATNA"
+#~ msgstr "ساتنا"
+
+#~ msgid "ATM"
+#~ msgstr "خود پرداز"
+
+#~ msgid "API"
+#~ msgstr "وب سرویس (API)"
+
+#~ msgid "Terminal"
+#~ msgstr "پایانه"
+
+#~ msgid "Transaction Datetime"
+#~ msgstr "تاریخ تراکنش"
+
+#~ msgid "Deducts"
+#~ msgstr "کسورات"
+
+#~ msgid "Reference ID"
+#~ msgstr "شماره مرجع"
+
+#~ msgid "Tracking Code"
+#~ msgstr "کد پیگیری"
+
+#~ msgid "Origin Account"
+#~ msgstr "حساب مبدا"
+
+#~ msgid "Destination Description"
+#~ msgstr "شرح مقصد"
+
+#~ msgid "Origin Description"
+#~ msgstr "شرح مبدا"
+
+#~ msgid "Pending"
+#~ msgstr "در انتظار تایید"
+
+#~ msgid "Awaiting Payment"
+#~ msgstr "در انتظار پرداخت"
+
+#~ msgid "Awaiting Review"
+#~ msgstr "در انتظار بررسی پرداخت"
+
+#~ msgid "Internship"
+#~ msgstr "کارآموزی"
+
+#~ msgid "Accepted"
+#~ msgstr "پذیرفته شده"
+
+#~ msgid "Rejected"
+#~ msgstr "رد شده"
+
+#~ msgid "Reject Description"
+#~ msgstr "شرح رد کردن"
+
+#~ msgid "Order"
+#~ msgstr "سفارش"
+
+#~ msgid "Withdraws"
+#~ msgstr "برداشت‌ها"
+
+#~ msgid "Accepted at"
+#~ msgstr "پذیرفته شده در"
+
+#~ msgid ""
+#~ "Write a text to user, when you reject the request or change status to "
+#~ "awaiting payment."
+#~ msgstr ""
+#~ "هنگامی که درخواست را رد می کنید یا وضعیت را به انتظار پرداخت تغییر می "
+#~ "دهید، یک متن برای کاربر بنویسید."
+
+#~ msgid "Bank of Origin"
+#~ msgstr "بانک مبدا"
+
+#~ msgid "Unknown"
+#~ msgstr "نامشخص"
+
+#~ msgid "Tracking Number"
+#~ msgstr "شماره پیگیری"
+
+#~ msgid "Transaction Date"
+#~ msgstr "تاریخ تراکنش"
+
+#~ msgid "Request Review"
+#~ msgstr "بررسی درخواست"
+
+#~ msgid "Accept Request"
+#~ msgstr "پذیرش درخواست"
+
+#~ msgid "Reject Request"
+#~ msgstr "رد درخواست"
+
+#~ msgid "This message show to the user that requested this request."
+#~ msgstr ""
+#~ "این پیغام به کاربری که این درخواست را ثبت کرده است، نشان داده خواهد شد."
+
+#, php-format
+#~ msgid "This request status already changed to %s."
+#~ msgstr "وضعیت این درخواست پیش از این به %s تغییر کرده است."
+
+#~ msgid "Submit"
+#~ msgstr "تایید"
+
+#, php-format
+#~ msgid "%s for %s agreement"
+#~ msgstr "%s برای الگوی %s"
+
+#~ msgid "Pending Payment"
+#~ msgstr "در انتظار پرداخت"
+
+#~ msgid "Refused"
+#~ msgstr "رد شده"
+
+#~ msgid "Your withdraw is submitted successfully."
+#~ msgstr "برداشت شما با موفقیت ثبت شد."
+
+#, php-format
+#~ msgid "Can not save relation ship: %s"
+#~ msgstr "رابطه قابل ذخیره نیست: %s"
+
+#, php-format
+#~ msgid "Can not add a new withdraw: %s"
+#~ msgstr "قادر به افزودن برداشت جدید نیستیم: %s"
+
+#, php-format
+#~ msgid "You don't have any income until now, with status %s."
+#~ msgstr "شما هیچ آیتم درآمدی تا امروز با وضعیت %s ندارید."
+
+#, php-format
+#~ msgid ""
+#~ "Your requested amount (%s) is less than your agreement balance threshold "
+#~ "(%s)."
+#~ msgstr "مبلغ قابل پرداخت (%s) از کف موجودی برای برداشت (%s) کمتر است."
+
+#~ msgid "Agreement not found."
+#~ msgstr "الگوی درآمدی یافت نشد."
+
+#, php-format
+#~ msgid "You already have a withdraw with %s status."
+#~ msgstr "یک برداشت با وضعیت %s دارید. امکان ثبت درخواست جدید وجود ندارد."
+
+#~ msgid "My Salary Profile"
+#~ msgstr "پروفایل درآمدی من"
+
+#~ msgid "Date"
+#~ msgstr "تاریخ"
+
+#~ msgid "Bank Account Information"
+#~ msgstr "اطلاعات حساب بانکی"
+
+#~ msgid "Total Incomes"
+#~ msgstr "جمع کل درآمد‌ها"
+
+#~ msgid "Total Deducts"
+#~ msgstr "جمع کل کسورات"
+
+#~ msgid "Total Payments"
+#~ msgstr "جمع کل پرداخت‌ها"
+
+#~ msgid "Date To"
+#~ msgstr "تا تاریخ"
+
+#~ msgid ""
+#~ "By submitting a new payment request, you will receive your income in the "
+#~ "form of a deposit to the introduced bank account"
+#~ msgstr ""
+#~ "با ثبت برداشت، درآمد‌های خود را به شکل واریز به حساب بانکی معرفی شده دریافت "
+#~ "کنید"
+
+#~ msgid "Profile page"
+#~ msgstr "صفحه پروفایل‌"
+
+#, php-format
+#~ msgid ""
+#~ "You should first, fill in your bank account information inside your %s, to "
+#~ "submit a withdraw"
+#~ msgstr "برای ثبت برداشت، ابتدا اطلاعات حساب بانکی خود را در %s تکمیل کنید"
+
+#~ msgid "Add New Withdraw"
+#~ msgstr "برداشت جدید"
+
+#~ msgid "Some require parameters is missing."
+#~ msgstr "داده‌های مورد نیاز برای انجام عملیات یافت نشد."
+
+#~ msgid "Created at"
+#~ msgstr "تاریخ ایجاد"
+
+#~ msgid "No products found."
+#~ msgstr "هیچ محصولی یافت نشد."
+
+#~ msgid "Name"
+#~ msgstr "نام"
+
+#~ msgid "Total Sale"
+#~ msgstr "جمع فروش"
+
+#~ msgid "Your Earns"
+#~ msgstr "سهم شما"
+
+#~ msgid "Incoming Type"
+#~ msgstr "نوع درآمدزایی"
+
+#, php-format
+#~ msgid "%s sale"
+#~ msgstr "%s فروش"
+
+#, php-format
+#~ msgid "%s number order"
+#~ msgstr "%s عدد سفارش"
+
+#~ msgid "Earned revenue is receivable before it reaches the sales floor"
+#~ msgstr "درآمدهای اکتسابی پیش از رسیدن به کف فروش، قابل وصول است"
+
+#~ msgid "Earned revenue is not receivable before it reaches the sales floor"
+#~ msgstr "درآمدهای اکتسابی پیش از رسیدن به کف فروش، قابل وصول نیست"
+
+#~ msgid "Record Previous Incomes"
+#~ msgstr "احتساب درآمدهای پیش از کف فروش"
+
+#, php-format
+#~ msgid "after %s"
+#~ msgstr "بعد از %s"
+
+#~ msgid "From first order"
+#~ msgstr "از اولین سفارش"
+
+#~ msgid "Start of Record Incomes"
+#~ msgstr "شروع ثبت درآمد"
+
+#~ msgid "End of Record Incomes"
+#~ msgstr "پایان ثبت درآمد"
+
+#~ msgid "Edit Bank Information"
+#~ msgstr "ویرایش اطلاعات حساب بانکی"
+
+#~ msgid "You don't have any agreement."
+#~ msgstr "الگوی درآمدی با شما تعریف نشده است."
+
+#~ msgid "Agreement is required"
+#~ msgstr "الگوی درآمدی یک پارامتر ضروری است"
+
+#~ msgid "User already submit a request on this agreement"
+#~ msgstr ""
+#~ "کاربر مورد نظر، پیش از این یک درخواست برای این الگوی درآمدی ثبت کرده است"
+
+#~ msgid "User request rejected by admin"
+#~ msgstr "درخواست کاربر توسط مدیر رد شده است"
+
+#~ msgid "Agreement is private"
+#~ msgstr "الگوی درآمدی خصوصی است"
+
+#~ msgid "Agreement not for the user"
+#~ msgstr "الگوی درآمدی برای این کاربر نیست"
+
+#~ msgid "Agreement not founded."
+#~ msgstr "الگوی درآمدی یافت نشد."
+
+#~ msgid "Unrequestable"
+#~ msgstr "غیر قابل درخواست"
+
+#~ msgid "Requestable"
+#~ msgstr "قابل درخواست"
+
+#~ msgid "We have received your request and are reviewing it."
+#~ msgstr "درخواست شما را دریافت کرده و در حال بررسی آن هستیم."
+
+#~ msgid ""
+#~ "The aforementioned request will be approved if all conditions and "
+#~ "prerequisites are met."
+#~ msgstr ""
+#~ "درخواست مذکور در صورت رعایت کلیه شرایط و پیش‌نیازها، مورد تایید قرار خواهد "
+#~ "گرفت."
+
+#~ msgid "Congratulations"
+#~ msgstr "تبریک"
+
+#, php-format
+#~ msgid ""
+#~ "Your partnership with %s has started at %s under %s agreement. Click the "
+#~ "button below to view the partnership agreement."
+#~ msgstr ""
+#~ "همکاری شما با %s از تاریخ %s تحت الگوی %s آغاز شده است. برای مشاهده جزئیات "
+#~ "الگوی همکاری روی دکمه زیر کلیک کنید."
+
+#~ msgid "Your request is in the internship state."
+#~ msgstr "درخواست شما در مرحله کارآموزی است."
+
+#, php-format
+#~ msgid ""
+#~ "After the internship, your request will be accepted and your collaboration "
+#~ "with %s will begin."
+#~ msgstr ""
+#~ "پس از دوره کارآموزی، درخواست شما مورد پذیرش نهایی قرار گرفته و همکاری شما "
+#~ "با %s شروع خواهد شد."
+
+#~ msgid "Approved"
+#~ msgstr "تایید شده"
+
+#, php-format
+#~ msgid "Your request to collaborate with %s has been approved."
+#~ msgstr "درخواست همکاری شما با %s تأیید شد."
+
+#~ msgid ""
+#~ "Your request is currently pending payment. Please complete your payment in "
+#~ "one step (from a bank card in your name) and if you are using the card-to-"
+#~ "card method, enter your payment information in the form below."
+#~ msgstr ""
+#~ "در حال حاضر درخواست شما در انتظار پرداخت است. لطفا پرداخت خود را در یک "
+#~ "مرحله (از یک کارت بانکی به نام خودتان) تکمیل و در صورتی که از روش کارت به "
+#~ "کارت استفاده می‌کنید، اطلاعات پرداخت را در فرم زیر ثبت کنید."
+
+#~ msgid "Paid"
+#~ msgstr "پرداخت شده"
+
+#~ msgid "We have received your payment information and are reviewing it."
+#~ msgstr ""
+#~ "اطلاعات ثبت شده از پرداخت شما را دریافت کرده و در حال بررسی آن هستیم."
+
+#~ msgid "Cost of Internship"
+#~ msgstr "هزینه کارآموزی"
+
+#~ msgid "Discount"
+#~ msgstr "تخفیف"
+
+#~ msgid "Amount Paid"
+#~ msgstr "مبلغ پرداخت شده"
+
+#~ msgid "You are not apply on this agreement yet."
+#~ msgstr "شما هنوز برای این الگوی درآمدی درخواستی ثبت نکرده اید."
+
+#~ msgid "agreement id is a require field"
+#~ msgstr "شناسه الگوی درآمدی یافت نشد"
+
+#~ msgid "Cost of Request"
+#~ msgstr "هزینه درخواست"
+
+#~ msgid "Your requested agreement not found"
+#~ msgstr "الگوی درآمدی درخواستی شما یافت نشد"
+
+#~ msgid "It's seems you dont submit any request on the agreement"
+#~ msgstr "به نظر می‌رسد شما درخواستی برای این الگوی درآمدی ثبت نکرده‌اید"
+
+#~ msgid "Without Price"
+#~ msgstr "بدون قیمت"
+
+#~ msgid "Price"
+#~ msgstr "قیمت"
+
+#~ msgid "Total Price"
+#~ msgstr "جمع کل"
+
+#~ msgid "Enter your coupon"
+#~ msgstr "محل وارد کردن کد تخفیف"
+
+#~ msgid "Payment Method"
+#~ msgstr "شیوه پرداخت"
+
+#~ msgid "Instructions"
+#~ msgstr "دستورالعمل‌ها"
+
+#~ msgid ""
+#~ "Deposit the above amount all at once (in one go) to the bank account with "
+#~ "the following details."
+#~ msgstr ""
+#~ "مبلغ فوق را یکجا (در یک نوبت) به حساب بانکی با مشخصات زیر واریز کنید."
+
+#~ msgid "Select your bank"
+#~ msgstr "بانک خود را انتخاب کنید"
+
+#, fuzzy
+#~| msgid "Something wrong, please contact us"
+#~ msgid "Something wrong on agreement, please contact us."
+#~ msgstr "مشکلی در فرآیند حذف به وجود آمده است، لطفا با ما تماس بگیرید"
+
+#, fuzzy
+#~| msgid "Something wrong, please contact us"
+#~ msgid "Something wrong about your request, please contact us."
+#~ msgstr "مشکلی در فرآیند حذف به وجود آمده است، لطفا با ما تماس بگیرید"
+
+#~ msgid "Cooperation Details"
+#~ msgstr "جزئیات همکاری"
+
+#~ msgid ""
+#~ "This page provides a summary of the details of how to collaborate. If you "
+#~ "are interested in doing so, please proceed to the next step."
+#~ msgstr ""
+#~ "در این صفحه خلاصه‌ای از جزئیات نحوه همکاری ارائه شده است. در صورتی که مایل "
+#~ "به انجام این همکاری هستید، به مرحله بعد بروید."
+
+#~ msgid "Prerequisites"
+#~ msgstr "پیش‌نیازها"
+
+#~ msgid "Complete Profile"
+#~ msgstr "تکمیل پروفایل کاربری"
+
+#~ msgid ""
+#~ "Complete the following information in your user profile. If the "
+#~ "information and documents are verified, you will be directed to the next "
+#~ "step. The verification process will take between a few hours and a few "
+#~ "days. Please check back on this page in the coming days to check the "
+#~ "results of the verification process."
+#~ msgstr ""
+#~ "اطلاعات زیر را در پروفایل کاربری خود تکمیل کنید. در صورت احراز صحت اطلاعات "
+#~ "و مدارک به مرحله بعد هدایت خواهید شد. فرآیند احراز بین چند ساعت تا چند روز "
+#~ "به طول خواهد انجامید. لطفا جهت بررسی نتیجه فرآیند احراز، طی روزهای آتی "
+#~ "مجددا به این صفحه مراجعه کنید."
+
+#~ msgid "Cooperation Terms"
+#~ msgstr "شرایط همکاری"
+
+#~ msgid ""
+#~ "By submitting your cooperation request, you agree to the following terms "
+#~ "and conditions. If you wish to cooperate, please confirm the terms and "
+#~ "conditions and proceed to the next step."
+#~ msgstr ""
+#~ "ثبت درخواست همکاری شما به منزله موافقت کامل با شرایط زیر است. لطفا در صورت "
+#~ "تمایل به همکاری، شرایط را تأیید کرده و به مرحله بعد بروید."
+
+#~ msgid "Requested agreement not found!"
+#~ msgstr "الگوی درآمدی درخواستی شما یافت نشد!"
+
+#~ msgid "Coupon applied successfully."
+#~ msgstr "کد تخفیف با موفقیت اعمال شد."
+
+#~ msgid "Entered code is not valid."
+#~ msgstr "کد وارد شده معتبر نیست."
+
+#~ msgid "Coupon Code"
+#~ msgstr "کد كوپن"
+
+#~ msgid "Something is wrong, please contact us."
+#~ msgstr "مشکلی به وجود آمده است، لطفا با ما تماس بگیرید."
+
+#~ msgid "You request submitted successfully"
+#~ msgstr "درخواست شما با موفقیت ثبت شد"
+
+#~ msgid ""
+#~ "Something wrong on submitting your request, please try again after few "
+#~ "minutes"
+#~ msgstr ""
+#~ "مشکلی در هنگام ثبت درخواست شما به وجود آمده است، لطفا بعدا چند دقیقه "
+#~ "دوباره امتحان کنید"
+
+#, fuzzy
+#~| msgid ""
+#~| "requested agreement is not valid or not exist, please refresh page and "
+#~| "try again"
+#~ msgid ""
+#~ "requested agreement is not valid or not exist, please refresh page and try "
+#~ "again."
+#~ msgstr "الگوی درآمدی درخواستی معتبر نیست، لطفا صفحه را بارگذاری مجدد کنید"
+
+#~ msgid "you already submit a request on this agreement"
+#~ msgstr ""
+#~ "شمار پیش از این یک درخواست برای پیوستن به این الگوی درآمدی ارسال کرده‌اید"
+
+#~ msgid "Your verifiable fields is not verified, can't submit your request"
+#~ msgstr ""
+#~ "برخی از فیلد‌های پروفایل شما احراز نشده اند، شما نمی‌توانید درخواست خود را "
+#~ "ثبت کنید"
+
+#~ msgid "Please accept terms first."
+#~ msgstr "لطفا ابتدا تیک پذیرش قوانین و مقرارت را برنید."
+
+#~ msgid "Your order submitted successfully"
+#~ msgstr "درخواست شما با موفقیت ثبت شد"
+
+#~ msgid "Something is wrong, please try again."
+#~ msgstr "اشکالی در فرایند عملیات رخ داده است، لطفا دوباره امتحان کنید."
+
+#~ msgid "Your request is not valid or not found."
+#~ msgstr "درخواست شما معتبر نیست یا یافت نشد."
+
+#~ msgid "Verified"
+#~ msgstr "تایید شده"
+
+#~ msgid "Uncompleted"
+#~ msgstr "تکمیل نشده"
+
+#, php-format
+#~ msgid "Owner of %s"
+#~ msgstr "مالک %s"
+
+#, php-format
+#~ msgid "Number of %s"
+#~ msgstr "شماره %s"
+
+#~ msgid "Bank account removed successfully"
+#~ msgstr "حساب بانکی با موفقیت حذف شد"
+
+#~ msgid "Something wrong on remove process, please try again"
+#~ msgstr "مشکلی در فرآیند حذف به وجود آمده است، لطفا دوباره امتحان کنید"
+
+#~ msgid "Your requested account for remove is locked"
+#~ msgstr "حساب بانکی که می‌خواهید حذف کنید قفل شده است"
+
+#~ msgid "Can not find requested account"
+#~ msgstr "قادر به یافتن حساب درخواستی نیستیم"
+
+#~ msgid "Bank account saved successfully"
+#~ msgstr "حساب بانکی با موفقیت ذخیره شد"
+
+#~ msgid "Missing some require fields"
+#~ msgstr "بررخی از فیلد‌های ضروری یافت نشدند"
+
+#~ msgid "Account Owner Name"
+#~ msgstr "صاحب حساب"
+
+#~ msgid "Account Type"
+#~ msgstr "نوع حساب"
+
+#~ msgid "Requested withdraw not found."
+#~ msgstr "برداشتی که دنبال آن هستید یافت نشد."
+
+#~ msgid "Total of your incomes for selected agreements"
+#~ msgstr "جمع درآمد شما از الگوهای انتخاب شده"
+
+#~ msgid "Total"
+#~ msgstr "جمع کل"
+
+#~ msgid "Impossible to withdraw because of some managerial reasons"
+#~ msgstr "عدم امکان برداشت به دلایل مدیریتی"
+
+#~ msgid "Impossible to withdraw because of insufficient sales volume"
+#~ msgstr "عدم امکان برداشت به دلیل حجم فروش ناکافی"
+
+#, php-format
+#~ msgid "Your total income that is higher than %s"
+#~ msgstr "جمع درآمد شما که بالاتر از مبلغ %s است"
+
+#~ msgid "Remain"
+#~ msgstr "مانده"
+
+#~ msgid "Total your receivables"
+#~ msgstr "جمع درآمد قابل وصول شما"
+
+#~ msgid "Some require parameters is missing"
+#~ msgstr "برخی از پارامتر‌های ضروری یافت نشدند"
+
+#~ msgid "Choose the agreements that you want to be credited with"
+#~ msgstr "الگو‌هایی که می خواهید درآمدشان برایتان واریز شود انتخاب کنید"
+
+#~ msgid "Start Earn Money"
+#~ msgstr "شروع کسب درآمد"
+
+#, php-format
+#~ msgid ""
+#~ "You are not member of any agreement yet, you can find appliable agreements "
+#~ "in %s to apply theme."
+#~ msgstr ""
+#~ "شما عضو هیچ الگوی‌ درآمدی نیستید، برای ثبت درخواست عضویت می‌توانید از %s "
+#~ "اقدام کنید."
+
+#~ msgid "User Profile"
+#~ msgstr "پروفایل کاربری"
+
+#~ msgid "My Salary"
+#~ msgstr "کسب درآمد"
+
+#~ msgid "Start Earning Money"
+#~ msgstr "شروع کسب درآمد"
+
+#~ msgid "Apply to agreement"
+#~ msgstr "عضویت در الگوی درآمدی"
+
+#~ msgid "All Public Agreements"
+#~ msgstr "همه الگو‌های درآمدی"
+
+#~ msgid "List of public agreements that you can apply to theme"
+#~ msgstr "لیستی از الگو‌های درآمدی که شما می‌توانید در آنها ثبت نام کنید"
+
+#~ msgid "Show Agreement"
+#~ msgstr "نمایش الگوی درآمدی"
+
+#~ msgid "Show details of agreement and your request"
+#~ msgstr "نمایش جزئیات الگو درآمدی و درخواست شما"
+
+#~ msgid "Agreement Details"
+#~ msgstr "جزئیات الگوی درآمدی"
+
+#~ msgid "Details of earning money in this agreement"
+#~ msgstr "جزئیات کسب درآمد در این الگوی درآمدی"
+
+#~ msgid "Terms of cooperation within this agreement"
+#~ msgstr "شرایط همکاری در قالب این الگوی درآمدی"
+
+#~ msgid "Request Status"
+#~ msgstr "وضعیت درخواست"
+
+#~ msgid "The latest status of your application for this revenue model"
+#~ msgstr "آخرین وضعیت درخواست شما برای این الگوی درآمدی"
+
+#~ msgid "Submit Request"
+#~ msgstr "ثبت درخواست"
+
+#~ msgid "Submit your request for apply to this agreement"
+#~ msgstr "درخواست خود را برای ورد به این الگوی درآمدی ثبت کنید"
+
+#~ msgid "My Agreements"
+#~ msgstr "الگو‌های درآمدی من"
+
+#~ msgid "Your agreements list"
+#~ msgstr "لیست الگو‌های درآمدی شما"
+
+#~ msgid "Your agreement information"
+#~ msgstr "اطلاعات الگوی درآمدی شما"
+
+#~ msgid "Cooperation Status"
+#~ msgstr "وضعیت همکاری"
+
+#~ msgid "Your cooperation status in this agreement"
+#~ msgstr "وضعیت همکاری شما در این الگوی درآمدی"
+
+#~ msgid "Your incomes related to this agreement"
+#~ msgstr "درآمد‌های شما که با این الگوی درآمدی مرتبط هستند"
+
+#~ msgid "My Withdraws"
+#~ msgstr "برداشت‌های من"
+
+#~ msgid "List of Withdraws"
+#~ msgstr "لیست برداشت‌ها"
+
+#~ msgid "List of your withdraws"
+#~ msgstr "لیست برداشت‌های شما"
+
+#~ msgid "Details of Withdraw"
+#~ msgstr "جزئیات برداشت"
+
+#~ msgid "Your withdraw details"
+#~ msgstr "جزئیات برداشت شما"
+
+#, php-format
+#~ msgid "Your %s related to this withdraw"
+#~ msgstr "%s شما مرتبط با این برداشت"
+
+#~ msgid "Sale Count"
+#~ msgstr "تعداد فروش"
+
+#~ msgid "Cooperation Start Date"
+#~ msgstr "تاریخ شروع همکاری"
+
+#~ msgid "Your Income"
+#~ msgstr "درآمد شما"
+
+#~ msgid "Request Date"
+#~ msgstr "تاریخ درخواست"
+
+#~ msgid "Current Status"
+#~ msgstr "وضعیت جاری"
+
+#~ msgid "Pay"
+#~ msgstr "پرداخت"
+
+#~ msgid "Apply Coupon"
+#~ msgstr "اعمال کد تخفیف"
+
+#~ msgid "Submit Payment"
+#~ msgstr "ثبت اطلاعات پرداخت"
+
+#~ msgid "View Agreement"
+#~ msgstr "مشاهده الگوی درآمدی"
+
+#~ msgid "Show Details"
+#~ msgstr "نمایش جزئیات"
+
+#~ msgid "Edit Profile"
+#~ msgstr "ویرایش پروفایل"
+
+#~ msgid ""
+#~ "Please wait until we verify your verifiable fields, we do it as soon as "
+#~ "possible."
+#~ msgstr ""
+#~ "لطفاً صبر کنید تا فیلدهای قابل تأیید شما را تأیید کنیم، ما این کار را در "
+#~ "اسرع وقت انجام می دهیم."
+
+#~ msgid "Please fill required fields on your profile."
+#~ msgstr "لطفا فیلدهای الزامی را در پروفایل خود تکمیل کنید."
+
+#~ msgid "Click the button to edit your profile."
+#~ msgstr "برای ویرایش پروفایل خود روی دکمه روبرو کلیک کنید"
+
+#~ msgid "I read the content of this page carefully and fully accept it."
+#~ msgstr "محتوای این صفحه را با دقت مطالعه کرده و به طور کامل می‌پذیرم."
+
+#~ msgid "Please accept terms first"
+#~ msgstr "لطفا ابتدا تیک پذیرش قوانین و مقرارت را برنید"
+
+#~ msgid ""
+#~ "Sorry, you can't apply to this agreement, util require fields is not "
+#~ "verified"
+#~ msgstr ""
+#~ "قبل از تایید فیلد‌های ضروری نمی‌توانید برای این الگوی درآمدی درخواست ثبت کنید"
+
+#~ msgid ""
+#~ "The bank account is required only in the name of the user and there is no "
+#~ "discrepancy in the user profile information"
+#~ msgstr ""
+#~ "حساب بانکی فقط به نام شخص کاربر و عدم وجود مغایرت در اطلاعات پروفایل "
+#~ "کاربری الزامی است"
+
+#~ msgid "Save Bank Account Information"
+#~ msgstr "ذخیره اطلاعات حساب بانکی"
+
+#~ msgid "Add New Bank Account"
+#~ msgstr "افزودن حساب بانکی جدید"
+
+#~ msgid "Save Bank Account"
+#~ msgstr "ذخیره حساب‌ بانکی"
+
+#~ msgid "Remove"
+#~ msgstr "حذف"
+
+#~ msgid "Are you sure about delete this account bank?"
+#~ msgstr "آیا در مورد حذف این حساب بانکی مطمئن هستید؟"
+
+#~ msgid "List of Incomes"
+#~ msgstr "لیست درآمد‌ها"
+
+#~ msgid "Incomes related to this withdraw"
+#~ msgstr "درآمد‌های مرتبط با این برداشت"
+
+#~ msgid "List of Payments"
+#~ msgstr "لیست پرداخت‌ها"
+
+#~ msgid "Payment related to this withdraw"
+#~ msgstr "برداشت‌های مرتبط با این برداشت"
+
+#~ msgid "Withdraw Summary"
+#~ msgstr "خلاصه برداشت"
+
+#, php-format
+#~ msgid "Your withdraw status is %s and you don't have any payment yet."
+#~ msgstr ""
+#~ "وضعیت برداشت شما %s است و هنوز پرداختی برای درخواست شما ثبت نشده است."
+
+#~ msgid "You can't edit this request after submit"
+#~ msgstr "درخواست شما پس از ثبت غیر قابل ویرایش خواهد بود"
+
+#~ msgid "Submit Withdraw"
+#~ msgstr "ثبت برداشت"
+
+#~ msgid "Calculate Payable Income"
+#~ msgstr "محاسبه درآمد قابل پرداخت"
+
+#~ msgid "Please choose some agreement before calculate"
+#~ msgstr "لطفا الگوی همکاری را انتخاب کنید"
+
+#~ msgid "List of your bank accounts"
+#~ msgstr "لیست حساب‌های بانکی شما"
+
+#~ msgid "Salary"
+#~ msgstr "دریافتی کاربران"
+
+#~ msgid "Agreement Configuration"
+#~ msgstr "پیکربندی الگوی درآمدی"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "User Fields"
+#~ msgstr "فیلدهای کاربر"
+
+#~ msgid "Require fields for apply"
+#~ msgstr "فیلدهای لازم برای درخواست"
+
+#~ msgid "Request Statuses Description"
+#~ msgstr "شرح وضعیت‌های مختلف درخواست"
+
+#~ msgid "Show to user if user request is on that status."
+#~ msgstr "این شرح در هر مرحله از وضعیت درخواست به کاربر نمایش داده می‌شود."
+
+#~ msgid "Cooperation Status Description"
+#~ msgstr "شرح وضعیت همکاری"
+
+#~ msgid "Shows to user on the cooperation status section"
+#~ msgstr "در بخش وضعیت همکاری به کاربر نشان داده می شود"
+
+#~ msgid "Site title"
+#~ msgstr "عنوان سایت"
+
+#~ msgid "Transactions"
+#~ msgstr "تراکنش‌ها"
+
+#~ msgid "Transactions Configuration"
+#~ msgstr "پیکربندی تراکنش‌ها"
+
+#~ msgid "Min Withdraw Balance"
+#~ msgstr "کف موجودی برای تسویه"
+
+#~ msgid "Origin Accounts"
+#~ msgstr "حساب‌های مبدا"
+
+#~ msgid "Account Number"
+#~ msgstr "شماره حساب"
+
+#~ msgid "Fee Policies"
+#~ msgstr "قوانین کسورات"
+
+#~ msgid "Enable"
+#~ msgstr "فعال"
+
+#~ msgid "Policy Type"
+#~ msgstr "نوع سیاست"
+
+#~ msgid "Bank Name"
+#~ msgstr "نام بانک"
+
+#~ msgid "Collaborator"
+#~ msgstr "همکار"
+
+#~ msgid "Income and Payment"
+#~ msgstr "درآمد و پرداخت"
+
+#~ msgid "Bank is not supported"
+#~ msgstr "بانک مورد نظر پشتیبانی نمی‌شود"
+
+#, fuzzy, php-format
+#~| msgid "Request status successfully changed to %s"
+#~ msgid "Request status updated to %s."
+#~ msgstr "وضعیت درخواست با موفقیت به %s تغییر کرد"
+
+#, fuzzy
+#~| msgid "Requested agreement not found!"
+#~ msgid "Related agreement to this request of order not found"
+#~ msgstr "الگوی درآمدی درخواستی شما یافت نشد!"
+
+#, fuzzy
+#~| msgid "Requested agreement not found!"
+#~ msgid "Related agreement request to this order not found"
+#~ msgstr "الگوی درآمدی درخواستی شما یافت نشد!"
+
+#, php-format
+#~ msgid "Can not add income: %s"
+#~ msgstr "قادر به افزودن درآمد نیستیم: %s"
+
+#~ msgid "Bank Melli Iran"
+#~ msgstr "بانک ملی ایران"
+
+#~ msgid "Bank Saderat Iran"
+#~ msgstr "بانک صادرات ایران"
+
+#~ msgid "Bank of Industry and Mine"
+#~ msgstr "بانک صنعت و معدن"
+
+#~ msgid "Bank Pasargad"
+#~ msgstr "بانک پاسارگاد"
+
+#~ msgid "Export Development Bank of Iran"
+#~ msgstr "بانک توسعه صادرات ایران"
+
+#~ msgid "Bank Sepah"
+#~ msgstr "بانک سپه"
+
+#~ msgid "Bank Mellat"
+#~ msgstr "بانک ملت"
+
+#~ msgid "Bank Shahr"
+#~ msgstr "بانک شهر"
+
+#~ msgid "Commerce Bank"
+#~ msgstr "بانک تجارت"
+
+#~ msgid "Housing Bank"
+#~ msgstr "بانک مسکن"
+
+#~ msgid "Entrepreneurship Bank"
+#~ msgstr "بانک کارآفرین"
+
+#~ msgid "We received your request"
+#~ msgstr "درخواست شما را دریافت کردیم"
+
+#~ msgid "your payment information receive and check it as soon as possible."
+#~ msgstr "اطلاعات پرداخت شما را دریافت کرده و در اسرع وقت بررسی می کنیم."
+
+#~ msgid "Accepted At"
+#~ msgstr "پذیرفته شده در"
+
+#~ msgid "Site"
+#~ msgstr "وب سایت"
+
+#, fuzzy
+#~| msgid "Cooperation Start Date"
+#~ msgid "Start Date"
+#~ msgstr "تاریخ شروع همکاری"
+
+#~ msgid "List of %s related to this agreement"
+#~ msgstr "لیست %s مرتبط با این الگوی درآمدی"
+
+#~ msgid "Agreement Terms"
+#~ msgstr "شرایط الگوی درآمدی"
+
+#~ msgid "Check Payment"
+#~ msgstr "بررسی پرداخت"
+
+#~ msgid "Accept"
+#~ msgstr "پذیرش"
+
+#~ msgid "Reject"
+#~ msgstr "رد"
+
+#~ msgid "Agreement cooperation details"
+#~ msgstr "جزئیات نحوه همکاری الگوی درآمدی"
+
+#~ msgid "Agreement cooperation terms"
+#~ msgstr "شرایط همکاری الگوی درآمدی"
+
+#~ msgid "Your request status"
+#~ msgstr "وضعیت درخواست شما"
+
+#~ msgid "Request Details"
+#~ msgstr "جزئیات درخواست"
+
+#~ msgid "Agreement is require"
+#~ msgstr "الگوی درآمدی یک پارامتر ضروری است"
+
+#~ msgid ""
+#~ "Please accept terms first or make sure your verify require fields is "
+#~ "verified"
+#~ msgstr ""
+#~ "لطفا قوانین و مقررات را بپذیرید و مطمئن شوید که فیلد‌های الزامی احراز شده "
+#~ "باشند"
+
+#~ msgid "Paying for an internship"
+#~ msgstr "پرداخت هزینه کارآموزی"
+
+#~ msgid ""
+#~ "At this step, you will need to pay the internship fee. This amount is non-"
+#~ "refundable. After completing the payment, you can proceed to the final "
+#~ "stage and complete your application."
+#~ msgstr ""
+#~ "در این مرحله لازم است نسبت به پرداخت هزینه کارآموزی اقدام کنید. این مبلغ "
+#~ "غیر قابل عودت است. پس از تکمیل پرداخت، می‌توانید به مرحله نهایی رفته و "
+#~ "درخواست خود را تکمیل کنید."
+
+#~ msgid "Complete The Application"
+#~ msgstr "تکمیل درخواست"
+
+#~ msgid ""
+#~ "At this step, you need to complete the application (if Custom File Fax is "
+#~ "going to add this step, it might be better to talk specifically about the "
+#~ "team and say, for example: At this stage, you need to select your team. "
+#~ "For this purpose, please enter the 6-character ID of the team manager that "
+#~ "was provided to you.)"
+#~ msgstr ""
+#~ "در این مرحله لازم است نسبت به تکمیل درخواست اقدام کنید (این مرحله رو اگر "
+#~ "کاستوم فایل فاکس قراره اضافه کنه، شاید بهتر باشه مشخصا در مورد تیم صحبت "
+#~ "کنیم و مثلا بگیم: در این مرحله لازم است نسبت به انتخاب تیم خود اقدام کنید. "
+#~ "به این منظور لطفا شناسه ۶ کاراکتری مدیر تیم را که در اختیار شما قرار گرفته "
+#~ "وارد کنید.)"
+
+#~ msgid "Read terms carefully"
+#~ msgstr "شرایط الگوی کسب درآمد را با دقت مطالعه کنید"
+
+#, fuzzy
+#~| msgid "Please accept terms first"
+#~ msgid "Please pay the payment first."
+#~ msgstr "لطفا ابتدا تیک پذیرش قوانین و مقرارت را برنید"
+
+#~ msgid "User Profile Status"
+#~ msgstr "وضعیت پروفایل کاربری"
+
+#~ msgid "Earning money needs to complete profile's fields"
+#~ msgstr "کسب درآمد نیازمند تکمیل فیلدهای پروفایل است"
+
+#~ msgid "Check Requirements"
+#~ msgstr "بررسی الزامات"
+
+#~ msgid "Review & Submit"
+#~ msgstr "بررسی و ارسال"
+
+#~ msgid "Mehre Eghtesad (Sepah)"
+#~ msgstr "بانک اقتصاد (سپه)"
+
+#~ msgid "account parameter is missing"
+#~ msgstr "پارامتر کلید حساب کاربری یافت نشد"
+
+#~ msgid "You requested account for edit that not exist"
+#~ msgstr "حساب بانکی که می‌خواهید ویرایش کنید یافت نشد"
+
+#~ msgid "You already added this account number"
+#~ msgstr "شما پیش از این، حساب بانکی با این مشخصات را وارد کرده اید"
+
+#~ msgid "Something wrong on saving process, please try again"
+#~ msgstr "مشکلی در فرآیند ذخیره سازی به وجود آمده است، لطفا دوباره امتحان کنید"
+
+#~ msgid "Maybe you change nothing."
+#~ msgstr "شاید شما چیزی را تغییر نداده‌اید."
+
+#~ msgid "Your bank is not support or your entered %s is not valid"
+#~ msgstr ""
+#~ "بانک مورد نظر شما پشتیبانی نمی‌شود و یا ممکن است %s را اشتباه وارد کرده "
+#~ "باشید"
+
+#~ msgid "Value of %s is require"
+#~ msgstr "مقدار %s ضروری است"
+
+#~ msgid "EN Bank"
+#~ msgstr "بانک اقتصاد نوین"
+
+#~ msgid "TT Bank"
+#~ msgstr "بانک توسعه تعاون"
+
+#~ msgid "Fee Policy"
+#~ msgstr "قانون کسورات"
+
+#, fuzzy
+#~| msgid ""
+#~| "Users select by this callback for agreement process, if you dont't select "
+#~| "any item, we choice all agreement's users"
+#~ msgid ""
+#~ "Requests select by this callback for agreement process, if you dont't "
+#~ "select any item, we choice all agreement's requests."
+#~ msgstr ""
+#~ "کاربران با استفاده از این رویه برای فرآیند پورسانت دهی الگو‌ی درآمدی انتخاب "
+#~ "می‌شوند، اگر گزينه‌ای انتخاب نشود، همه کاربران الگو درآمدی انتخاب خواهند شد"
+
+#~ msgid "Line (Class)"
+#~ msgstr "کلاس"
+
+#~ msgid "Origin"
+#~ msgstr "منشا"
+
+#~ msgid "Anywhere"
+#~ msgstr "از همه جا"
+
+#~ msgid "Shortcode"
+#~ msgstr "شورت‌کد"
+
+#~ msgid "Base on users id"
+#~ msgstr "بر اساس شناسه کاربران"
+
+#~ msgid "Base on role"
+#~ msgstr "بر اساس نقش‌ کاربری"
+
+#~ msgid "Include %s users"
+#~ msgstr "شامل %s کاربر"
+
+#~ msgid "Agreement not found"
+#~ msgstr "الگوی درآمدی یافت نشد"
+
+#~ msgid "%s of each new order by promoted products"
+#~ msgstr "%s از هر سفارش از طریق شورتکد روی محصولات معرفی شده"
+
+#~ msgid "%s of each new order by promoted products on shortcode"
+#~ msgstr "%s از هر سفارش مربوط به محصولات معرفی شده"
+
+#~ msgid "Agreement Lines"
+#~ msgstr "کلاس‌های الگوی درآمدی"
+
+#~ msgid "My Payments"
+#~ msgstr "پرداخت‌های من"
+
+#~ msgid "Role"
+#~ msgstr "نقش‌"
+
+#~ msgid "As Public"
+#~ msgstr "به صورت عمومی"
+
+#~ msgid "Resigned"
+#~ msgstr "ترک همکاری"
+
+#~ msgid "Fired"
+#~ msgstr "اخراج شده"
+
+#~ msgid "Banned"
+#~ msgstr "غیر قابل درخواست"
+
+#~ msgid "All Withdraws"
+#~ msgstr "همه درخواست‌ها"
+
+#~ msgid "Your requested agreement is not a valid agreement"
+#~ msgstr "الکوی درآمدی درخواستی شما معتبر نیست"
+
+#~ msgid "List of Agreements"
+#~ msgstr "همه الگو‌ها"
+
+#~ msgid "Agreement History"
+#~ msgstr "لاگ الگو"
+
+#~ msgid "Agreement Histories"
+#~ msgstr "لاگ‌های الگو"
+
+#~ msgid "Deduct"
+#~ msgstr "کاهش"
+
+#~ msgid "Tax type"
+#~ msgstr "نوع مالیات"
+
+#~ msgid "Fee type"
+#~ msgstr "نوع کارمزد"
+
+#~ msgid "Reference Id"
+#~ msgstr "شماره مرجع"
+
+#~ msgid "Origin Bank"
+#~ msgstr "بانک مبدا"
+
+#~ msgid "%s Details"
+#~ msgstr "جزئیات %s"
+
+#~ msgid "SANTA"
+#~ msgstr "سانتا"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Total Description"
+#~ msgstr "شرح"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "LOCKED Description"
+#~ msgstr "شرح"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "UNWITHDRAWN Description"
+#~ msgstr "شرح"
+
+#~ msgid "Withdraw minimum balance"
+#~ msgstr "کف موجودی برای درخواست پرداخت"
+
+#, fuzzy
+#~| msgid "Incomes"
+#~ msgid "Fetch Incomes"
+#~ msgstr "درآمد‌ها"
+
+#~ msgid ""
+#~ "You should first, fill in your bank account information inside your %s, to "
+#~ "submit a withdraw."
+#~ msgstr ""
+#~ "برای ثبت درخواست پرداخت، ابتدا اطلاعات حساب بانکی خود را در %s تکمیل کنید."
+
+#~ msgid "You don't have any agreement, please contact with administrator."
+#~ msgstr "الگوی درآمدی با شما تعریف نشده است، لطفا با مدیر سیستم تماس بگیرید."
+
+#~ msgid ""
+#~ "By submitting a new payment request, you will receive your income in the "
+#~ "form of a deposit to the introduced bank account."
+#~ msgstr ""
+#~ "با ثبت درخواست پرداخت، درآمد‌های خود را به شکل واریز به حساب بانکی معرفی "
+#~ "شده دریافت کنید."
+
+#~ msgid "Calculation and settlement of revenues, until what date"
+#~ msgstr "محاسبه و تسویه درآمدها، تا چه تاریخی انجام شود"
+
+#~ msgid "Require fields is missing"
+#~ msgstr "مقدار فیلد‌های ضروری ارائه نشده است"
+
+#~ msgid "Save Withdraw"
+#~ msgstr "ذخیره درخواست پرداخت"
+
+#~ msgid "Edit Bank Account"
+#~ msgstr "ویرایش حساب بانکی"
+
+#, fuzzy
+#~| msgid "Your agreements list"
+#~ msgid "Your withdraws your list"
+#~ msgstr "لیست الگو‌های درآمدی شما"
+
+#~ msgid "key parameter is missing"
+#~ msgstr "پارامتر کلید یافت نشد"
+
+#~ msgid "Your entered data is not correct or not support"
+#~ msgstr "داده‌های ورودی شما صحیح نیستند و یا پشتیبانی نمی‌شوند"
+
+#~ msgid "Save bank account information"
+#~ msgstr "ذخیره اطلاعات حساب بانکی"
+
+#~ msgid "Add Bank Account"
+#~ msgstr "افزودن حساب بانکی"
+
+#, fuzzy
+#~| msgid "Add New Account"
+#~ msgid "Add Account"
+#~ msgstr "افزودن حساب جدید"
+
+#~ msgid "Not requested yet"
+#~ msgstr "هنوز درخواست نکرده‌اید"
+
+#, fuzzy
+#~| msgid "Show Agreement"
+#~ msgid "Show Appliable Agreement"
+#~ msgstr "نمایش الگوی درآمدی"
+
+#~ msgid "Looked"
+#~ msgstr "قفل شده"
+
+#, fuzzy
+#~| msgid "Product Categories"
+#~ msgid "Products Categories"
+#~ msgstr "دسته‌های محصول"
+
+#, fuzzy
+#~| msgid "List of products that you earned income by theme"
+#~ msgid ""
+#~ "List of product categories related to this agreement that you earned "
+#~ "income by theme"
+#~ msgstr "لیست محصولات"
+
+#~ msgid "%s Sale"
+#~ msgstr "%s فروش"
+
+#~ msgid "My Performance"
+#~ msgstr "عملکرد من"
+
+#, fuzzy
+#~| msgid "Origin Description"
+#~ msgid "My Performance Description"
+#~ msgstr "شرح مبدا"
+
+#~ msgid "Include %s %s&nbsp;"
+#~ msgstr "شامل %s %s &nbsp;"
+
+#~ msgid "and"
+#~ msgstr "و"
+
+#~ msgid "Bank Type"
+#~ msgstr "نوع نوشته"
+
